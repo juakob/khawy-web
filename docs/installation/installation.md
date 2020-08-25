@@ -4,5 +4,8 @@ The first thing we need to do is install ower IDE and Kha tools
 [Visual Studio Code](https://code.visualstudio.com) can be used by installing the [Kha Extension Pack](https://marketplace.visualstudio.com/items?itemName=kodetech.kha-extension-pack)
 
 ### Init a kha project
-Now we want to create a kha project. To do this inside visual studio code, we open the folder were we want to init ower project. Then we press F1 to open the Command Palette and 
-type inside "Kha: Init Project". If everything went alright you should see in your explorer tab a bunch of new folders and files. If we now press F5 (Run->Start Debugging) and everithing went ok during installation, we should see a new window open.
+Now we want to create a kha project. To do this inside visual studio code, we open the folder were we want to init ower project. Then we press F1 to open the Command Palette and type inside "Kha: Init Project". If everything went alright you should see in your explorer tab a bunch of new folders and files.
+
+![files](./installation/kha_files.png)
+
+If we now press F5 (Run->Start Debugging) and everithing went ok during installation, we should see a new window open.
