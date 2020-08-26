@@ -2,3 +2,5 @@
 * [Scenes](./Khawy/scenes.md)
 * [Resources](./Khawy/resources.md)
 * [Sprite](./Khawy/sprite.md)
+* [Layer](./Khawy/layer.md)
+* [Sound](./Khawy/sound.md)
