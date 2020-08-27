@@ -15,3 +15,17 @@ When we change the state all the resources will be unloaded by default.
 
 You can disable loading objects and manually do it by setting  Simulation.i.manualLoad = true;
 *JoinAtlas will still be created in each load
+
+# Loaders
+## Image
+
+## SpriteSheet
+
+atlas.add(new SpriteSheetLoader("hero", 45, 60, 0, [
+			new Sequence("fall", [0]),
+			new Sequence("slide", [0]),
+			new Sequence("jump", [1]),
+			new Sequence("run", [2, 3, 4, 5, 6, 7, 8, 9]),
+			new Sequence("idle", [10]),
+			new Sequence("wallGrab", [11])
+		]));
