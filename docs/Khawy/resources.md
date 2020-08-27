@@ -2,12 +2,16 @@
 
 All resources or assets need to be loaded before using them. We load them in a state, more specifically by overriding 
 override function load(resources:Resources)
-We tell khawy we want to load somthing by adding a loader to resources. For example if we want to load an image call "myImage" we would add 
+We tell khawy we want to load assets by adding loaders to resources. For example if we want to load an image call "myImage.png" we would add 
 resources.add(new ImageLoader("myImage"));
 if we would like to load a sound we would call 
 resources.add(new SoundLoader("mySound"));
 
-When we change the state all the resources will be unloaded. 
+Notice that we don't set the type of the asset, thats because basic resources get optimize by kha and might be transform into another format.
+We do specify the format when we load raw data. We replace points in the name with underscores.
+myData.xml will be loaded using resources.add(new DataLoader("myData_xml"));
+
+When we change the state all the resources will be unloaded by default. 
 
 You can disable loading objects and manually do it by setting  Simulation.i.manualLoad = true;
 *JoinAtlas will still be created in each load
